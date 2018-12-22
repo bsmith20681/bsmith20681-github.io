@@ -1,0 +1,57 @@
+html {
+  scroll-behavior: smooth; }
+
+.btn--black {
+  color: #fff;
+  background-color: #000;
+  border-radius: 10rem;
+  padding: .7rem 2rem; }
+
+.btn--black:hover {
+  cursor: pointer;
+  color: #fff;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px); }
+
+.btn--green {
+  color: #fff;
+  background-color: #28a745;
+  border-radius: 10rem;
+  padding: .7rem 2rem; }
+
+.btn--green:hover {
+  cursor: pointer;
+  color: #fff;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px); }
+
+.btn--blue {
+  color: #fff;
+  background-color: #007bff;
+  border-radius: 10rem;
+  padding: .7rem 2rem; }
+
+.btn--blue:hover {
+  cursor: pointer;
+  color: #fff;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px); }
+
+.contactme {
+  padding: 100px 0 100px 0; }
+
+.footer {
+  padding: 30px 0 30px 0; }
+  .footer__copy {
+    color: #fff; }
+
+.nav .nav-link {
+  color: #fff; }
+
+.header {
+  padding: 100px 0 100px 0; }
+
+.project {
+  padding: 100px 0 100px 0; }
+
+/*# sourceMappingURL=main.css.map */

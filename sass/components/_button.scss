@@ -1,0 +1,41 @@
+.btn--black{
+ color: $white;
+ background-color: $black;
+ border-radius: 10rem;
+ padding: .7rem 2rem;
+}
+
+.btn--black:hover {
+  cursor: pointer;
+  color: $white;
+  box-shadow: 0 .5rem 1rem rgba($black, .15);
+  transform: translateY(-2px);
+}
+
+.btn--green{
+  color: $white;
+  background-color: $green;
+  border-radius: 10rem;
+  padding: .7rem 2rem;
+}
+
+.btn--green:hover {
+  cursor: pointer;
+  color: $white;
+  box-shadow: 0 .5rem 1rem rgba($black, .15);
+  transform: translateY(-2px);
+}
+
+.btn--blue{
+  color: $white;
+  background-color: $blue;
+  border-radius: 10rem;
+  padding: .7rem 2rem;
+}
+
+.btn--blue:hover {
+  cursor: pointer;
+  color: $white;
+  box-shadow: 0 .5rem 1rem rgba($black, .15);
+  transform: translateY(-2px);
+}
