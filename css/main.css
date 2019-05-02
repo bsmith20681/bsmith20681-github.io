@@ -1,42 +1,28 @@
 html {
   scroll-behavior: smooth; }
 
-.btn--black {
+.btn {
   color: #fff;
-  background-color: #000;
   border-radius: 10rem;
   padding: .7rem 2rem; }
+  .btn:hover {
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px); }
 
-.btn--black:hover {
-  cursor: pointer;
-  color: #fff;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  transform: translateY(-2px); }
+.btn--black {
+  background-color: #000; }
 
 .btn--green {
-  color: #fff;
-  background-color: #28a745;
-  border-radius: 10rem;
-  padding: .7rem 2rem; }
-
-.btn--green:hover {
-  cursor: pointer;
-  color: #fff;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  transform: translateY(-2px); }
+  background-color: #28a745; }
 
 .btn--blue {
-  color: #fff;
-  background-color: #007bff;
-  border-radius: 10rem;
-  padding: .7rem 2rem; }
+  background-color: #007bff; }
 
-.btn--blue:hover {
-  cursor: pointer;
-  color: #fff;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  transform: translateY(-2px); }
-
+@media (max-width: 600px) {
+  .btn--black {
+    margin: 0 0 20px 13px; } }
 .contactme {
   padding: 100px 0 100px 0; }
 

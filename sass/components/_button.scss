@@ -1,41 +1,32 @@
-.btn--black{
- color: $white;
- background-color: $black;
- border-radius: 10rem;
- padding: .7rem 2rem;
+.btn {
+  color: $white;
+  border-radius: 10rem;
+  padding: .7rem 2rem;
+  &:hover {
+    color:$white;
+    cursor: pointer;
+    box-shadow: 0 .5rem 1rem rgba($black, .15);
+    transform: translateY(-2px);
+  }
 }
 
-.btn--black:hover {
-  cursor: pointer;
-  color: $white;
-  box-shadow: 0 .5rem 1rem rgba($black, .15);
-  transform: translateY(-2px);
+.btn--black{
+ background-color: $black;
 }
 
 .btn--green{
-  color: $white;
   background-color: $green;
-  border-radius: 10rem;
-  padding: .7rem 2rem;
 }
 
-.btn--green:hover {
-  cursor: pointer;
-  color: $white;
-  box-shadow: 0 .5rem 1rem rgba($black, .15);
-  transform: translateY(-2px);
-}
 
 .btn--blue{
-  color: $white;
   background-color: $blue;
-  border-radius: 10rem;
-  padding: .7rem 2rem;
 }
 
-.btn--blue:hover {
-  cursor: pointer;
-  color: $white;
-  box-shadow: 0 .5rem 1rem rgba($black, .15);
-  transform: translateY(-2px);
+
+//ADJUSTS THE BLACK BUTTON ON PHONE SCREEN
+@media (max-width: 600px) {
+  .btn--black {
+    margin: 0 0 20px 13px;
+  }
 }
