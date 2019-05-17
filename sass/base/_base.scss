@@ -1,3 +1,9 @@
 html {
   scroll-behavior: smooth;
 }
+
+pre {
+  background-color: $grey;
+  border-radius: 30px;
+  padding: 25px;
+}
